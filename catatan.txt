@@ -1,0 +1,56 @@
+class pake .
+section id pake #
+
+<a href="home.html">Home</a>
+<a href="mailto:info@uph.edu">Universitas Pelita Harapan</a>// mailto
+<a href="#Bussiness">Bussiness school</a> 					// lompat ke bagian
+<hr>														// buat garis panjang		
+<ol></ol>													// numbering
+<ul></ul>													// bulleted
+
+@font-face {
+	font-family: 'HELVETICANEUELTPRO-ROMAN';
+	src: url('fonts/HELVETICANEUELTPRO-ROMAN.OTF') format('truetype');
+}
+font-family: HELVETICANEUELTPRO-ROMAN;
+opacity: 0.8;
+
+a:hover
+&copy; // simbol copyright
+
+background-color:yellow; 						// background color
+color: blue; 									// text color
+text-align : justify ;							// rata text
+text-shadow: 1px 1px 2px rgba(150,150,150,1); 	// shadow (sb x, sb y, pengaburan, warna)
+font-variant: small-caps; 						// huruf besar semua namun ada yg ukuran besar hanya huruf pertama
+line-height: 24px; 								// jarak antar baris
+text-indent: 30px;								// tab ( masuk ke dalam untuk paragraf)
+letter-spacing: 3px;							// jarak antar kata
+word-spacing : 7px;								// jarak antar huruf
+font-style: italic;
+font-weight : 700;								// bolder bold 900 max					
+text-decoration : underline;					// bisa buat none untuk matikan underline a href
+text-transform : capitalize;					// ada uppercase
+
+border : 2px solid black						// border
+border-radius : 10px;							// kotak tumpul
+box-shadow: 2px 1px 3px red;
+
+list-style-type: none;							// ngak ada simbol bulletnya
+list-style-position: outside;				
+list-style-image: url(a.gif);
+content: ">";									// ganti simbol
+
+float: left;
+clear: both;									// hilang float
+
+background-color: rgba(100%,50%,0%,0.5);
+background-image: url('twitter.png');
+background-repeat: no-repeat;
+background-position: 100px 450px;
+background : url('twitter.png') 20px 10px no-repeat, url('fb.png') 100px 40px no-repeat, url(a.gif);
+background: linear-gradient(to right,red,white);
+background: radial-gradient(red,yellow);
+
+
+
